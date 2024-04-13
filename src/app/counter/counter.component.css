@@ -13,9 +13,12 @@
     
 }
 .until__component{
-    text-align: center;
+    
     background:#ffffff;
     border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .until__numeric{
 color:#333333;
