@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { CounterComponent } from './counter/counter.component';
+import { SliderPhotoModule } from './changing-photo/slider-photo.module';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,7 @@ import { CounterComponent } from './counter/counter.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,SliderPhotoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
