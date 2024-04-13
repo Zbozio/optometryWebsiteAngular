@@ -1,8 +1,13 @@
-<div style="width: 840px; height: 500px; text-align:center;margin:0; padding:0;">
+<div class="row">
+<div #container style="width: 1000px; height: 500px; text-align:center;margin:0; padding:0;">
     <ng-image-slider #nav
       [images]="imageObject"
       [infinite]="true"
       [autoSlide]="1"
-      [imageSize]="{width: '25%', height: 300}"
-      slideImage="1"></ng-image-slider>
+      [imageSize]="{width: '55%', height: 300}"
+      slideImage="1"
+      [manageImageRatio]=true
+      
+      ></ng-image-slider>
   </div>
+</div>
