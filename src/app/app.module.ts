@@ -3,24 +3,23 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
+
 
 import { CounterComponent } from './counter/counter.component';
 import { SliderPhotoModule } from './changing-photo/slider-photo.module';
 
 import { FooterModule } from './footer/footer.module';
+import { HeaderModule } from './header/headerToggle.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    
     CounterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,SliderPhotoModule,FooterModule
+    AppRoutingModule,SliderPhotoModule,FooterModule,HeaderModule
   ],
   providers: [],
   bootstrap: [AppComponent]

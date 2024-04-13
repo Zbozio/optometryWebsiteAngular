@@ -3,21 +3,22 @@ import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { MdbRippleModule } from 'mdb-angular-ui-kit/ripple';
 import { MdbFormsModule } from 'mdb-angular-ui-kit/forms';
-import { FooterComponent } from './footer.component';
-
+import {  HeaderComponent } from './header.component';
+import { MdbCollapseModule } from 'mdb-angular-ui-kit/collapse';
 
 @NgModule({
   declarations: [
-    FooterComponent
+    HeaderComponent
   ],
   imports: [
     CommonModule,
     BrowserModule,
     MdbRippleModule,
-    MdbFormsModule
+    MdbFormsModule,
+    MdbCollapseModule
   ],
   exports: [
-    FooterComponent
+    HeaderComponent
   ]
 })
-export class FooterModule { }
+export class HeaderModule { }
