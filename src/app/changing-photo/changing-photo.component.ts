@@ -23,23 +23,24 @@ export class ChangingPhotoComponent {
     },
     {
       image:
-        'src/app/photos/cysia1.jpg',
-      thumbImage:
-        'src/app/photos/cysia1.jpg',
+      '../../assets/photos/cysia1.jpg',
+    thumbImage:
+      '../../assets/photos/cysia1.jpg',
       title: 'Example with title.',
     },
     {
       image:
-        'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/7.jpg',
-      thumbImage:
-        'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/7.jpg',
+      '../../assets/photos/cysia2.jpg',
+    thumbImage:
+      '../../assets/photos/cysia2.jpg',
       title: 'Hummingbirds are amazing creatures',
     },
     {
       image:
-        'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/1.jpg',
-      thumbImage:
-        'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/1.jpg',
+      '../../assets/photos/cysia3.jpg',
+    thumbImage:
+      '../../assets/photos/cysia3.jpg',
+      title: 'Hummingbirds are amazing creatures',
     },
     {
       image:
