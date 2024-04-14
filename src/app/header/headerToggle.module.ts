@@ -6,6 +6,7 @@ import { MdbFormsModule } from 'mdb-angular-ui-kit/forms';
 import {  HeaderComponent } from './header.component';
 import { MdbCollapseModule } from 'mdb-angular-ui-kit/collapse';
 
+
 @NgModule({
   declarations: [
     HeaderComponent
