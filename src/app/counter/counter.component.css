@@ -1,15 +1,16 @@
 .until{
     
-    max-width: 500px;
+    max-width: 600px;
     display:grid;
     grid-template-columns: repeat(4, 1fr);
     gap:1em;
     padding:1em;
-    background:#009578 ;
+    background:black ;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
     font-family: sans-serif;
     width: 100%;
+    
     
 }
 .until__component{
@@ -19,6 +20,9 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    min-width: 110px;
+   
+    
 }
 .until__numeric{
 color:#333333;
