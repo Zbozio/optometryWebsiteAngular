@@ -1,26 +1,54 @@
 .row{
     padding:2rem;
 }
-body {
-	background-color: #f5f7fa;
-}
 
+.col{
+    min-width: 300px;
+    
+    min-height: 300px;
+    
+}
 .card.booking-card.v-2 {
-  background-color: #c7f2e3;
+  background-color: #eede96;
+  
 }
 
 .card.booking-card.v-2 .fa {
   color: #f7aa00;
+ 
 }
 
 .card.booking-card.v-2 .card-body .card-text {
-  color: #db2d43;
+ 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: black;
 }
 
 .card.card.booking-card.v-2 .chip {
   background-color: #87e5da;
+  
 }
 
 .card.booking-card.v-2 .card-body hr {
   border-top: 1px solid #f7aa00;
+}
+.chip{
+display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin-top: 5px;
+  background-color: #4CAF50; /* Kolor tła */
+  color: rgb(54, 48, 48); /* Kolor tekstu */
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  margin-left: 10px; 
+    
+}
+.bg-image{
+    max-width: 400px;
+    
+    max-height: 210px;
 }
