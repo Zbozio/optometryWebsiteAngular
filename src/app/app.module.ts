@@ -12,13 +12,15 @@ import { FooterModule } from './footer/footer.module';
 import { HeaderModule } from './header/headerToggle.module';
 import { BrandsPageComponent } from './brands-page/brands-page.component';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { StoresPageComponent } from './stores-page/stores-page.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     CounterComponent,
-    BrandsPageComponent
+    BrandsPageComponent,
+    StoresPageComponent
   ],
   imports: [
     BrowserModule,
