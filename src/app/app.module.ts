@@ -13,6 +13,7 @@ import { HeaderModule } from './header/headerToggle.module';
 import { BrandsPageComponent } from './brands-page/brands-page.component';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { StoresPageComponent } from './stores-page/stores-page.component';
+import { AboutUsPageComponent } from './about-us-page/about-us-page.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { StoresPageComponent } from './stores-page/stores-page.component';
     AppComponent,
     CounterComponent,
     BrandsPageComponent,
-    StoresPageComponent
+    StoresPageComponent,
+    AboutUsPageComponent
   ],
   imports: [
     BrowserModule,
