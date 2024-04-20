@@ -14,6 +14,7 @@ import { BrandsPageComponent } from './brands-page/brands-page.component';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { StoresPageComponent } from './stores-page/stores-page.component';
 import { AboutUsPageComponent } from './about-us-page/about-us-page.component';
+import { ImageCarouselComponent } from './stores-page/image-carousel/image-carousel.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { AboutUsPageComponent } from './about-us-page/about-us-page.component';
     CounterComponent,
     BrandsPageComponent,
     StoresPageComponent,
-    AboutUsPageComponent
+    AboutUsPageComponent,
+    ImageCarouselComponent
   ],
   imports: [
     BrowserModule,

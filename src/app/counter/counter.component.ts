@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './counter.component.css'
 })
 export class CounterComponent {
-  countDownDate=new Date("April 19 2024 21:00:00").getTime();
+  countDownDate=new Date("April 30 2024 21:00:00").getTime();
 
   days:any;
   hours:any;
