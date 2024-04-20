@@ -14,7 +14,8 @@ import { BrandsPageComponent } from './brands-page/brands-page.component';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { StoresPageComponent } from './stores-page/stores-page.component';
 import { AboutUsPageComponent } from './about-us-page/about-us-page.component';
-import { ImageCarouselComponent } from './stores-page/image-carousel/image-carousel.component';
+import { imageCarousel } from './image-carousel/image-carousel.module';
+
 
 
 @NgModule({
@@ -24,11 +25,12 @@ import { ImageCarouselComponent } from './stores-page/image-carousel/image-carou
     BrandsPageComponent,
     StoresPageComponent,
     AboutUsPageComponent,
-    ImageCarouselComponent
+    
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,SliderPhotoModule,FooterModule,HeaderModule,RouterOutlet,RouterLink,RouterLinkActive
+    AppRoutingModule,SliderPhotoModule,FooterModule,HeaderModule,RouterOutlet,RouterLink,RouterLinkActive,imageCarousel,
   ],
   providers: [],
   bootstrap: [AppComponent]
