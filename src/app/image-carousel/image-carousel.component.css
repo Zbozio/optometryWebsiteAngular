@@ -1,0 +1,5 @@
+mdb-carousel-item img {
+    max-width: 100%; 
+    max-height: 800px; 
+    object-fit: cover;
+  }
