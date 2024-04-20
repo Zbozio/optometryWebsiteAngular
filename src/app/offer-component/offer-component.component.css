@@ -1,0 +1,9 @@
+.grid{
+    display:flex;
+    padding: 2rem;
+   
+}
+
+.col-md-3, .col-md-9 {
+    flex: 1;
+}

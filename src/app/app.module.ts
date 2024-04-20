@@ -15,6 +15,7 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { StoresPageComponent } from './stores-page/stores-page.component';
 import { AboutUsPageComponent } from './about-us-page/about-us-page.component';
 import { imageCarousel } from './image-carousel/image-carousel.module';
+import { OfferComponentComponent } from './offer-component/offer-component.component';
 
 
 
@@ -25,6 +26,7 @@ import { imageCarousel } from './image-carousel/image-carousel.module';
     BrandsPageComponent,
     StoresPageComponent,
     AboutUsPageComponent,
+    OfferComponentComponent,
     
 
   ],
