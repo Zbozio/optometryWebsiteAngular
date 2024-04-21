@@ -7,3 +7,6 @@
 .col-md-3, .col-md-9 {
     flex: 1;
 }
+img {
+    max-width: 935px;
+}
