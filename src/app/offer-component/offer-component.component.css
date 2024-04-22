@@ -23,3 +23,17 @@ color:rgb(199, 135, 26);
 hr{
     color: rgb(199, 135, 26);;
 }
+@media (max-width: 900px) {
+    .grid {
+        flex-direction: column;
+    }
+
+    .col-md-3 {
+        order: 1;
+    }
+
+    .col-md-9 {
+        order: 2;
+    }
+
+  }
