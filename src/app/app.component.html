@@ -11,6 +11,7 @@
 <div class="col-xs-12">
     <app-changing-photo></app-changing-photo>
 </div> -->
+<app-stores-page *ngIf="loadedFeature==='Home'"></app-stores-page>
 <div class="row">
         <app-brands-page *ngIf="loadedFeature==='store'"></app-brands-page>
         <app-stores-page *ngIf="loadedFeature==='brands'"></app-stores-page>

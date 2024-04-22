@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'relationshipPage';
-  loadedFeature='';
+  loadedFeature='Home';
 
   onNavigate(feature:string){
     this.loadedFeature=feature;
