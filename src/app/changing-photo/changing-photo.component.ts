@@ -30,16 +30,16 @@ export class ChangingPhotoComponent {
     },
     {
       image:
-      '../../assets/photos/cysia2.jpg',
+      'https://s.yimg.com/ny/api/res/1.2/WDSqWZUb4I4lgkClpGz_UA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY4MztoPTYwMg--/https://media.zenfs.com/en-US/homerun/hello_giggles_454/0c7f747bd97a5a69b9474e787a58f4e9',
     thumbImage:
-      '../../assets/photos/cysia2.jpg',
+      'https://s.yimg.com/ny/api/res/1.2/WDSqWZUb4I4lgkClpGz_UA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY4MztoPTYwMg--/https://media.zenfs.com/en-US/homerun/hello_giggles_454/0c7f747bd97a5a69b9474e787a58f4e9',
       title: 'Hummingbirds are amazing creatures',
     },
     {
       image:
-      '../../assets/photos/cysia3.jpg',
+      'https://files.selecthealth.cloud/api/public/content/227173-Lady-wearing-glasses_blog_lg.jpg',
     thumbImage:
-      '../../assets/photos/cysia3.jpg',
+      'https://files.selecthealth.cloud/api/public/content/227173-Lady-wearing-glasses_blog_lg.jpg',
       title: 'Hummingbirds are amazing creatures',
     },
     {
