@@ -9,4 +9,17 @@
 }
 img {
     max-width: 935px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+p{
+    font-size: 30px;
+    margin-top: 2rem;
+}
+h2{
+color:rgb(199, 135, 26);
+}
+hr{
+    color: rgb(199, 135, 26);;
 }
