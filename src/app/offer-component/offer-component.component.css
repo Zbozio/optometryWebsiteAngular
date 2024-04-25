@@ -13,40 +13,41 @@ img {
     height: 100%;
    
 }
-.imageText{
-    text-align: center;
-    font-size: 18px;
-    color: black;
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    display: none;
-    
-
-}
-.overlay {
-    position: relative; /* Dodajemy, aby ramka miała poprawne położenie */
-    
-  }
-  .col-md-9:hover .imageOffer {
-    border:2px gold;
-    
+.imageTopContainer {
+    position: relative;
   }
   
-  .overlay:hover .imageText {
-    display: block; /* Po najechaniu na obrazek, pokazujemy tekst */
-    
+  .imageTop {
+    max-width: 935px;
+    width: 100%;
+    height: 100%;
   }
-  .overlay:hover img{
-    opacity:0;
+  
+  .hiddenText {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    border: 1px solid #cb9f67;
+    background: #fff;
+    z-index: 2;
+    padding: 20px;
+    opacity: 0; 
+    transition: opacity 0.5s;
+  }
+  
+  .overlay:hover .hiddenText {
+    opacity: 1; 
   }
   
   .imageText {
     text-align: center;
     font-size: 18px;
-    color: black;
   }
+  
+  
+  
 
 p{
     font-size: 30px;

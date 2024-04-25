@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './offer-component.component.css'
 })
 export class OfferComponentComponent {
-
+showBorder:boolean=false;
 }
