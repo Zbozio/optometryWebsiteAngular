@@ -46,13 +46,31 @@ img {
     font-size: 18px;
   }
   
+  .cardText{
+    font-size: 26px;
+  }
   
-  
+  .boldStyle{
+font-weight: bold;
+  }
+  .pInCard{
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+  }
 
-p{
+  .marginTop{
+    margin-top: 2rem;
+  }
+
+.info{
     font-size: 30px;
     margin-top: 2rem;
 }
+
+
+
+
 h2{
 color:rgb(199, 135, 26);
 }
