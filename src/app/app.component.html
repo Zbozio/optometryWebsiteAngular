@@ -1,6 +1,7 @@
 
 <app-header  (featureSelected)="onNavigate($event)"></app-header>
 <app-offer-component *ngIf="loadedFeature==='offers'" ></app-offer-component>
+<app-about-us-page *ngIf="loadedFeature==='about'"></app-about-us-page>
 <!-- <div class="row">
     <div class="col-xs-12">
         <app-counter></app-counter>
