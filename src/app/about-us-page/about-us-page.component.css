@@ -1,5 +1,6 @@
 .row{
     padding: 5rem;
+    display: flex;
 }
 .gold{
     width: 100%;
@@ -9,4 +10,13 @@
 .title{
     font-size: 40px;
     font-weight: bold;
+}
+.right{
+   justify-content: right;
+   text-align: right;
+   align-items: right;
+   padding:  1rem 0;
+}
+.textP{
+font-size: 30px;
 }
