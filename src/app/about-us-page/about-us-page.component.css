@@ -16,7 +16,11 @@
    text-align: right;
    align-items: right;
    padding:  1rem 0;
+   
 }
 .textP{
 font-size: 30px;
+}
+.golden{
+    color:#b58f28;
 }
