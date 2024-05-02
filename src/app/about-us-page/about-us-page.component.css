@@ -11,16 +11,7 @@
     font-size: 50px;
     /* font-weight: bold; */
 }
-.right{
-    float: right;
-    justify-content: right;
-    text-align: right;
-    align-items: right;
-   padding:  1rem 0;
-   width: 50%;
-   float: right;
-   
-}
+
 .textP{
 font-size: 35px;
 }
@@ -28,7 +19,7 @@ font-size: 35px;
     color:#b58f28;
 }
 .pad{
-    padding: 2rem  10rem 0 10rem;
+    padding: 2rem  10rem 1rem 10rem;
 }
 .whiteC{
     background-color: white;
