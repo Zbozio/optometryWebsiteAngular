@@ -16,6 +16,7 @@ import { StoresPageComponent } from './stores-page/stores-page.component';
 import { AboutUsPageComponent } from './about-us-page/about-us-page.component';
 import { imageCarousel } from './image-carousel/image-carousel.module';
 import { OfferComponentComponent } from './offer-component/offer-component.component';
+import { ServicesComponentComponent } from './services-component/services-component.component';
 
 
 
@@ -27,6 +28,7 @@ import { OfferComponentComponent } from './offer-component/offer-component.compo
     StoresPageComponent,
     AboutUsPageComponent,
     OfferComponentComponent,
+    ServicesComponentComponent,
     
 
   ],

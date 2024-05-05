@@ -16,6 +16,7 @@
 <div class="row">
         <app-brands-page *ngIf="loadedFeature==='store'"></app-brands-page>
         <app-stores-page *ngIf="loadedFeature==='brands'"></app-stores-page>
+        <app-services-component *ngIf="loadedFeature==='services'"></app-services-component>
         <app-counter *ngIf="loadedFeature==='services'"></app-counter>
         <app-changing-photo *ngIf="loadedFeature==='services'"></app-changing-photo>
         
