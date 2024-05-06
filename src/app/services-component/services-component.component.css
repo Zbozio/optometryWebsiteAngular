@@ -23,8 +23,17 @@
     }
     .hiddenText{
         color: black;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .hiddenDiv{
+        opacity:1;
     }
     
+    
+}
+.hiddenDiv{
+    
+    opacity: 0;
 }
 .cardText{
     color:white;
@@ -49,12 +58,11 @@
     
 }
 .title{
-    justify-content: left;  
-    text-align: left;
-    align-items: left;
-    border-bottom: 1px solid gold;
+    
+    
     padding-left: 14rem;
-    padding-right: 14rem;
+    padding-right: 15.5rem;
+    margin-bottom: 3rem;
 }
 .brown{
 background-color: #b89685;
@@ -68,7 +76,9 @@ background-color: #b89685;
 }
 .hiddenText{
     
-    width:50%
+   margin-top: 2rem;
+   font-size: 18px;
+   text-align: left;
     
     
 }
