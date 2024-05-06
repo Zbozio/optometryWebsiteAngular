@@ -1,20 +1,27 @@
 .card{
-    width: 600px;
-    height: 400px;
+    width: 400px;
+    height: 350px;
     
-    background-color: gold;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 600px;
     transition: background-color 0.2s;
     display: flex;
     padding: 1rem;
+    flex-grow: 1;
     
 }
 
 .card:hover {
     
-    border: 1px solid #000;
+    border: 0.5px solid #000;
     
     background:rgba(251, 247, 247, 0.1);
     .cardText{
+        color: black;
+        
+    }
+    .hiddenText{
         color: black;
     }
     
@@ -24,31 +31,44 @@
     text-align: left;
     
 }
-.border{
-    border: 10px solid gold;
-}
+
 
 .col-xs-12{
     display: flex;
     gap:2rem;
     flex-wrap: wrap;
-    padding-left: 9rem;
-    padding-right: 9rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
     justify-content: left;
+    
+    
+    
 }
 .row{
     padding: 4rem 4rem 4rem 4rem;
+    
 }
 .title{
     justify-content: left;  
     text-align: left;
     align-items: left;
-    border-bottom: 2px solid gold;
+    border-bottom: 1px solid gold;
+    padding-left: 14rem;
+    padding-right: 14rem;
 }
 .brown{
-
+background-color: #b89685;
 }
 .gold{
-
+    background-color: rgba(213, 188, 22, 0.702);
 }
 .silver
+{
+    background-color: #a8b7ab;
+}
+.hiddenText{
+    
+    width:50%
+    
+    
+}
