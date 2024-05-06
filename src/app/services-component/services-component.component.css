@@ -3,15 +3,25 @@
     height: 400px;
     
     background-color: gold;
-    opacity: 1; 
-    transition: opacity 0.5s;
+    transition: background-color 0.2s;
+    display: flex;
+    padding: 1rem;
     
 }
-.card:hover{
+
+.card:hover {
     
-    border: 2px solid #000;
-    border-radius: 3px;
-    background:rgba(240, 236, 236, 0.1);
+    border: 1px solid #000;
+    
+    background:rgba(251, 247, 247, 0.1);
+    .cardText{
+        color: black;
+    }
+    
+}
+.cardText{
+    color:white;
+    text-align: left;
     
 }
 .border{
@@ -22,9 +32,9 @@
     display: flex;
     gap:2rem;
     flex-wrap: wrap;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    justify-content: center;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    justify-content: left;
 }
 .row{
     padding: 4rem 4rem 4rem 4rem;
@@ -35,3 +45,10 @@
     align-items: left;
     border-bottom: 2px solid gold;
 }
+.brown{
+
+}
+.gold{
+
+}
+.silver
