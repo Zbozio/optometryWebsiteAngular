@@ -87,3 +87,20 @@ background-color: #b89685;
 .row{
     justify-content: center;
 }
+
+@media (max-width: 900px) {
+    .col-xs-12{
+       
+        padding: 0;
+        
+        
+        
+        
+    }
+    .title{
+        padding: 0;
+    }
+.row{
+    padding: 3rem;
+}
+  }
