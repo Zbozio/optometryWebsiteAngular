@@ -4,7 +4,7 @@
 
 .col{
     min-width: 400px;
-    
+  
     min-height: 250px;
     
 }
@@ -23,6 +23,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     color: black;
+    
 }
 
 .card.card.booking-card.v-2 .chip {
@@ -52,3 +53,16 @@ display: inline-block;
     
     max-height: 210px;
 }
+.card-body{
+  padding: 0.9rem;
+}
+
+
+@media (max-width: 900px) {
+
+  .row{
+    padding:0rem;
+}
+
+  
+  }

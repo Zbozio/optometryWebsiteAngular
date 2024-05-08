@@ -1,17 +1,26 @@
 .grid{
     display:flex;
     padding: 2rem;
+    
    
 }
 
+
 .col-md-3, .col-md-9 {
     flex: 1;
+    
 }
 img {
     max-width: 935px;
     width: 100%;
     height: 100%;
+    
    
+    
+   
+}
+.col-md-9{
+  min-width: 900px;
 }
 .imageTopContainer {
     position: relative;
@@ -21,6 +30,8 @@ img {
     max-width: 935px;
     width: 100%;
     height: 100%;
+    
+    
   }
   
   .hiddenText {
@@ -77,17 +88,34 @@ color:rgb(199, 135, 26);
 hr{
     color: rgb(199, 135, 26);;
 }
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
     .grid {
         flex-direction: column;
     }
+.container{
+  padding: 0;
+  justify-content: left;
+  margin: 0;
+}
+.col-md-3{
+  width: 100%;
+  max-width: 100%;
+}
 
-    .col-md-3 {
-        order: 1;
+.grid{
+  
+  padding-top: 1rem;;
+  
+}
+    
+/*                                          */
+  }
+  @media (max-width: 900px) {
+    .col-md-9{
+      min-width: 400px;
     }
-
-    .col-md-9 {
-        order: 2;
+    .grid{
+      min-width: 400px;
+      
     }
-
   }
