@@ -27,3 +27,18 @@ font-size: 35px;
 a{
     color:gray;
 }
+
+
+@media (max-width: 900px) {
+
+.textP{
+font-size: 14px;
+}
+.title{
+font-size: 20px;
+}
+.pad{
+    padding: 2rem  3rem 1rem 3rem;
+}
+
+}
