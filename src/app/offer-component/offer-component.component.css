@@ -112,10 +112,26 @@ hr{
   }
   @media (max-width: 900px) {
     .col-md-9{
-      min-width: 400px;
+      min-width: 350px;
+      padding: 0.5rem;
     }
     .grid{
-      min-width: 400px;
+      min-width: 350px;
+      padding: 0;
+      
+    }
+
+    .hiddenText {
+      position:relative;
+      top: 0;
+      left: 0;
+      width: 100%; 
+      height: 100%; 
+      border: none;
+      background: #fff;
+      z-index: 2;
+      padding: 20px;
+      opacity: 1; 
       
     }
   }
